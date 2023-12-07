@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu con tabs | Html - Css</title>
+    <link rel="stylesheet" href="estillos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="lbl-menu">
+            <label for="radio1">Inicio</label>
+            <label for="radio2">Peligros</label>
+            <label for="radio3">Precausion</label>
+            <label for="radio4">Historia</label>
+        </div>
+        
+        <div class="content">
+           
+            <input type="radio" name="radio" id="radio1" checked>
+            <div class="tab1">
+                <h2>Terremotos "sismos"</h2>
+                <p>Los terremotos, son movimientos violentos de la tierra, causada por el repentino choque o rose de las placas tectonicas, generalmente se mide su magnitug en escalas, (Richter,Mercali).</p>
+                <img src="temblor.jpg" alt="Imagen prueba" width="100" height="100">
+            </div>
+            
+            <input type="radio" name="radio" id="radio2">
+            <div class="tab2">
+                <h2>Peligros</h2>
+                <p>Por lo general los sismos o terremostos no generan daño, lo que genera realmente peligro son las infraestructuras que construyen las personas, casas, iglesias, etc.A demas un gran peligros y por lo cual genera muchas muertes es la poca preparacion de las personas ante estos sucesos.</p>
+            </div>
+            
+            <input type="radio" name="radio" id="radio3">
+            <div class="tab3">
+                <h2>Precausiones</h2>
+                <p>Las precausiones mas recomendadas es participar en los simulacros, tener una mochila de emergenciqas y tener un sitio en casa donde evacuar.</p>
+            </div>
+            
+            <input type="radio" name="radio" id="radio4">
+            <div class="tab4">
+                <h2>Historia en el Peru </h2>
+                <p>El Peru a experimentado grandes sismos en toda su historia, por ejemplo el mas reciente es del 2007, que causo mas de 500 muertos y muchos afectados, luego esta el sismo mas grande de toda la historia peruana, ocurrido en la epoca virreinal con una magnitud de 9, debasto todo la ciudad de lima y causo un gran tsunami.</p>
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Magnitud</th>
+                            <th>Localización</th>
+                            <th>Daños</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2007-08-15</td>
+                            <td>8.0</td>
+                            <td>Ica</td>
+                            <td>500 muertos, 1.500 heridos</td>
+                        </tr>
+                        <tr>
+                            <td>1746-08-28</td>
+                            <td>9.0</td>
+                            <td>Lima</td>
+                            <td>Devastacion total de toda la ciudad</td>
+                        </tr>
+                        <tr>
+                            <td>1687-01-20</td>
+                            <td>8.0</td>
+                            <td>Arequipa</td>
+                            <td>Gran daño en todo Arequipa</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/inicio.css">
+</head>
+<body>
+    
+    <header>
+
+     <ul class="nav__link nav__link--menu">
+        <li class="nav__items">
+            <a href="Inicio.html" class="nav__links">INICIO</a>
+        </li>
+        <li class="nav__items">
+            <a href="formulario.html" class="nav__links">FORMULARIO</a>
+        </li>
+        <li class="nav__items">
+            <a href="galeria.html" class="nav__links">GALERIA</a>
+        </li>
+        <li class="nav__items">
+            <a href="promociones.html" class="nav__links">PROMOCIONES</a>
+        </li>
+        <li class="nav__items">
+          <a href="#" class="nav__links">OTROS</a>
+      </li>
+    </header>
+
+    <div class="ful-img" id="fulImgBox">
+        <img src="img/ojitas.jpg" id="fulImg" alt="">
+        <span onclick="closeImg()">X</span>
+    </div>
+
+    <h1><span>Galeria de productos</span></h1>
+
+    <div class="img-gallery">
+        <img src="img/cepillos.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/cepillos.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/detergente.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/detergente.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/detergente.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/hisopos.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/hisopos.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/bolsa.webp" onclick="openFulImg(this.src)" alt="">
+    </div>
+    <script src="js/galeria.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Registro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/formulario.css">
+  <link rel="stylesheet" href="css/inicio.css">
+  <link rel="stylesheet" href="css/normalizacion.css">
+
+</head>
+<body>
+
+  <header>
+
+    <ul class="nav__link nav__link--menu">
+       <li class="nav__items">
+           <a href="Inicio.html" class="nav__links">INICIO</a>
+       </li>
+       <li class="nav__items">
+           <a href="formulario.html" class="nav__links">FORMULARIO</a>
+       </li>
+       <li class="nav__items">
+           <a href="galeria.html" class="nav__links">GALERIA</a>
+       </li>
+       <li class="nav__items">
+           <a href="promociones.html" class="nav__links">PROMOCIONES</a>
+       </li>
+       <li class="nav__items">
+         <a href="#" class="nav__links">OTROS</a>
+     </li>
+   </header>
+
+
+      <div class="container">
+        <form action="" class="form" id="form" autocomplete="off">
+          <p class="form-titulo">Regístrate</p>
+          <div class="form-input myname">
+            <input type="text" id="myname" placeholder="Nombre y apellido" pattern="^[a-zA-Záéíóúñ ]+$">
+            <label for="myname">Nombre y apellido</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-input email">
+            <input type="email" id="email" placeholder="Correo electrónico" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+            <label for="email">Correo electrónico</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-input dni">
+            <input type="text" id="dni" placeholder="Número de DNI" pattern="^[0-9]{8}$">
+            <label for="dni">Número de DNI</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-input birthdate">
+            <input type="date" id="birthdate" placeholder="Fecha de nacimiento">
+            <label for="birthdate">Fecha de nacimiento</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-input postalCode">
+            <input type="text" id="postalCode" placeholder="Código postal" pattern="^[0-9]{5}$">
+            <label for="postalCode">Código postal</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-input comment">
+            <textarea id="comment" placeholder="Comentario"></textarea>
+            <label for="comment">Comentario</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-termsAndConditions termsAndConditions">
+            <input type="checkbox" id="termsAndConditions">
+            <label for="termsAndConditions">He leído y acepto los </label>
+            <a href="#">Términos y Condiciones</a>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-boton" >
+            <input type="submit" value="Enviar">
+          </div>
+          <p class="mensajeCorrecto"></p>
+        </form>
+      </div>
+  
+</body>
+</html>

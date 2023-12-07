@@ -1,0 +1,135 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+
+.periodico {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 1px solid #eee7e7af;
+    border-radius: 5px;
+}
+
+.nombre h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.fecha {
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.fecha p {
+    margin: 0;
+}
+
+.titulo h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.noticia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido_izquierdo, .contenido_derecho {
+    flex: 1;
+}
+
+.contenido_izquierdo p,
+.contenido_derecho p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.img_container {
+    flex: 1;
+    padding: 100px;
+    text-align: center;
+   
+}
+
+.img_container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #dbc169;
+    box-shadow: 3px 3px 5px #8a7812;
+}
+
+
+.periodico {
+    background-color: #ecdd93;
+    border: 1px solid #dac459;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nombre h1 {
+    font-family: 'Old English Text MT', Times, serif;
+    color: #502810;
+}
+
+.titulo h2 {
+    font-size: 32px;
+    color: #c06932;
+    text-shadow: 1px 1px 1px #484904;
+}
+
+.contenido_izquierdo p, .contenido_derecho p {
+    font-size: 15px;
+    color: #333;
+}
+
+.fecha {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contenido_izquierdo, .contenido_derecho {
+    flex: 1;
+}
+
+.contenido_texto p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.img_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img_container img {
+    max-width: 60%; /* Cambia el tamaño de la imagen a mediano */
+    height: auto;
+    border: 1px solid #dbc169;
+    box-shadow: 3px 3px 5px #8a7812;
+}
